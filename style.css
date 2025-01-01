@@ -68,6 +68,21 @@ ul li {
     cursor: pointer;
     position: relative;;
 }
+ul li span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+    color: #555;
+}
+ul li span:hover{
+    background-color: #edeef0;
+}
 ul li::before{
     content: '';
     background-image: url(images/unchecked.png);
