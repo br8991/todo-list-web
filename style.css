@@ -54,4 +54,36 @@
     padding: 14px 30px;
     font-size: 14px;
     border-radius: 40px;
+    cursor: pointer;
+}
+.container-search-box button:hover{
+    background-color: #f07365;
+    
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;;
+}
+ul li::before{
+    content: '';
+    background-image: url(images/unchecked.png);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 8px;
+}
+ul li.task-checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.task-checked::before{
+    background-image: url(images/checked.png);
 }
