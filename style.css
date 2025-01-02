@@ -49,7 +49,7 @@
 .container-search-box button{
     border: none;
     outline: none;
-    background-color: #ff5945;
+    background-color: #1869b6;
     color: white;
     padding: 14px 30px;
     font-size: 14px;
@@ -57,7 +57,7 @@
     cursor: pointer;
 }
 .container-search-box button:hover{
-    background-color: #f07365;
+    background-color: #3585cf;
     
 }
 ul li {
